@@ -22,7 +22,7 @@ title: "ORNL Powder Diffraction Software Updates"
                 {% endif %}
             {% endif %}
             
-            <div class="timeline-item {{ side }}">
+            <div class="timeline-item {% cycle 'right', 'left' %}">
                 <div class="timeline-dot"></div>
                 <div class="timeline-content">
                     <div class="timeline-date">{{ post.date | date: "%B %d, %Y" }}</div>

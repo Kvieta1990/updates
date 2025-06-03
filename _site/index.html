@@ -3,16 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Project Roadmap</title>
-    <meta name="description" content="Important updates and milestones">
+    <title>ORNL Powder Diffraction Software Updates</title>
+    <meta name="description" content="Release notes and announcements on ORNL powder diffraction software and services">
     <link rel="stylesheet" href="/assets/css/main.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
 </head>
 <body>
     <header class="site-header">
         <div class="container">
-            <h1 class="site-title">Updates</h1>
-            <p class="site-description">Important updates and milestones</p>
+            <h1 class="site-title">PD Software Updates</h1>
+            <p class="site-description">Release notes and announcements on ORNL powder diffraction software and services</p>
         </div>
     </header>
 
@@ -30,19 +30,18 @@
             <div class="timeline-item right">
                 <div class="timeline-dot"></div>
                 <div class="timeline-content">
-                    <div class="timeline-date">June 01, 2025</div>
-                    <h3 class="timeline-title">Major Feature Launch</h3>
+                    <div class="timeline-date">June 02, 2025</div>
+                    <h3 class="timeline-title">Useful Total Scattering Data Processing Utilities</h3>
                     <div class="timeline-description">
-                        <p>We successfully launched our most requested feature! This update includes:</p>
+                        <p>We are announcing several useful implementations regarding the neutron powder total scattering data reduction and processing.</p>
+
+<h2 id="main-features">Main Features</h2>
 
 <ul>
-  <li>Enhanced user interface</li>
-  <li>Improved performance by 40%</li>
-  <li>New dashboard analytics</li>
-  <li>Mobile app optimization</li>
+  <li>User definition of sample and container geometry for absorption correction enabled in the Mantid framework</li>
+  <li>A chunk-by-chunk Fourier filter routine <code class="language-plaintext highlighter-rouge">pystog_ck</code> made available to general users on Analysis cluster. Detailed instructions can be found <a href="https://powder.ornl.gov/data_tools/general.html">here</a>.</li>
+  <li>A hydrogen background removal routine is available on Analysis through <code class="language-plaintext highlighter-rouge">mts_data</code>. Detailed instructions can be found <a href="https://powder.ornl.gov/data_tools/general.html#mts_data">here</a>.</li>
 </ul>
-
-<p>The launch exceeded our expectations with over 1,000 users adopting the new feature within the first 24 hours.</p>
 
                     </div>
                     
@@ -53,52 +52,9 @@
                     
                         <div class="timeline-tags">
                             
-                                <span class="tag">feature</span>
+                                <span class="tag">data reduction</span>
                             
-                                <span class="tag">launch</span>
-                            
-                                <span class="tag">milestone</span>
-                            
-                        </div>
-                    
-                </div>
-            </div>
-        
-            
-            
-            
-            
-            <div class="timeline-item right">
-                <div class="timeline-dot"></div>
-                <div class="timeline-content">
-                    <div class="timeline-date">May 30, 2025</div>
-                    <h3 class="timeline-title">Beta Version Released</h3>
-                    <div class="timeline-description">
-                        <p>Our beta version is now available for early testers. Key highlights:</p>
-
-<ul>
-  <li><strong>50+ beta testers</strong> signed up</li>
-  <li>Core functionality testing completed</li>
-  <li>Bug fixes and performance improvements</li>
-  <li>Feedback collection system implemented</li>
-</ul>
-
-<p>We received valuable feedback that helped shape the final release.</p>
-
-                    </div>
-                    
-                        <div class="timeline-status status-completed">
-                            Completed
-                        </div>
-                    
-                    
-                        <div class="timeline-tags">
-                            
-                                <span class="tag">beta</span>
-                            
-                                <span class="tag">testing</span>
-                            
-                                <span class="tag">release</span>
+                                <span class="tag">advanced</span>
                             
                         </div>
                     
@@ -112,21 +68,18 @@
             <div class="timeline-item left">
                 <div class="timeline-dot"></div>
                 <div class="timeline-content">
-                    <div class="timeline-date">May 15, 2025</div>
-                    <h3 class="timeline-title">Project Announcement</h3>
+                    <div class="timeline-date">April 24, 2025</div>
+                    <h3 class="timeline-title">An Experiment Monitor on the Phone</h3>
                     <div class="timeline-description">
-                        <p>Excited to announce the start of our new project!</p>
+                        <p>Excited to announce the release of an experiment monitor tool on the phone. See details <a href="https://powder.ornl.gov/collections/mobile_apps.html">here</a>.</p>
 
-<h2 id="whats-coming">What’s Coming</h2>
+<h2 id="main-features">Main Features</h2>
 
 <ul>
-  <li>Modern, responsive design</li>
-  <li>Advanced analytics dashboard</li>
-  <li>Real-time collaboration tools</li>
-  <li>Mobile-first approach</li>
+  <li>A mobile instrument status monitor</li>
+  <li>Get notifications by setting alarm</li>
+  <li>Availalbe on both ios and Android phones</li>
 </ul>
-
-<p>Stay tuned for regular updates as we progress through development milestones.</p>
 
                     </div>
                     
@@ -137,9 +90,133 @@
                     
                         <div class="timeline-tags">
                             
-                                <span class="tag">announcement</span>
+                                <span class="tag">feature</span>
                             
-                                <span class="tag">kickoff</span>
+                                <span class="tag">mobile</span>
+                            
+                                <span class="tag">monitor</span>
+                            
+                        </div>
+                    
+                </div>
+            </div>
+        
+            
+            
+            
+            
+            <div class="timeline-item right">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <div class="timeline-date">February 25, 2025</div>
+                    <h3 class="timeline-title">A Web-based Quick Data Plotter</h3>
+                    <div class="timeline-description">
+                        <p>Excited to announce the release of a data plotter in ADDIE, <a href="https://addie.ornl.gov/plotter">addie.ornl.gov/plotter</a>.</p>
+
+<h2 id="main-features">Main Features</h2>
+
+<ul>
+  <li>A data plotter accessible from anywhere on the web</li>
+  <li>Handling <code class="language-plaintext highlighter-rouge">several tens</code> of data files</li>
+  <li>Support up to <code class="language-plaintext highlighter-rouge">10 different folders</code> selection of files</li>
+  <li>Quick comparison between two data sets</li>
+  <li>Robust handling of headers</li>
+  <li>Minimal user inputs</li>
+</ul>
+
+                    </div>
+                    
+                        <div class="timeline-status status-completed">
+                            Completed
+                        </div>
+                    
+                    
+                        <div class="timeline-tags">
+                            
+                                <span class="tag">feature</span>
+                            
+                                <span class="tag">addie</span>
+                            
+                                <span class="tag">general</span>
+                            
+                        </div>
+                    
+                </div>
+            </div>
+        
+            
+            
+            
+            
+            <div class="timeline-item left">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <div class="timeline-date">February 18, 2025</div>
+                    <h3 class="timeline-title">Powder Diffraction Software Roadmap</h3>
+                    <div class="timeline-description">
+                        <p>The roadmap for powder diffraction software development at ORNL has been developed and made available <a href="https://powder.ornl.gov/work_items/roadmap.html">here</a>. These include,</p>
+
+<ul>
+  <li>Recent features available</li>
+  <li>Work in progress</li>
+  <li>Items planned to be worked on soon</li>
+  <li>Items in the backlog</li>
+</ul>
+
+                    </div>
+                    
+                        <div class="timeline-status status-completed">
+                            Completed
+                        </div>
+                    
+                    
+                        <div class="timeline-tags">
+                            
+                                <span class="tag">doc</span>
+                            
+                                <span class="tag">plan</span>
+                            
+                        </div>
+                    
+                </div>
+            </div>
+        
+            
+            
+            
+            
+            <div class="timeline-item right">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <div class="timeline-date">February 12, 2025</div>
+                    <h3 class="timeline-title">HFIR Estimator Tool Available</h3>
+                    <div class="timeline-description">
+                        <p>Excited to announce the release of the HFIR estimator tool in ADDIE, <a href="https://addie.ornl.gov/hfirestimate">addie.ornl.gov/hfirestimate</a></p>
+
+<h2 id="main-feature">Main Feature</h2>
+
+<ul>
+  <li>Simple input</li>
+  <li>Powder diffraction simulator with instrument effect</li>
+  <li>Estimation of the uncertainty level</li>
+</ul>
+
+<p>Stay tuned for the paper regarding the tool.</p>
+
+                    </div>
+                    
+                        <div class="timeline-status status-completed">
+                            Completed
+                        </div>
+                    
+                    
+                        <div class="timeline-tags">
+                            
+                                <span class="tag">feature</span>
+                            
+                                <span class="tag">experiment planning</span>
+                            
+                                <span class="tag">addie</span>
                             
                         </div>
                     
@@ -148,11 +225,12 @@
         
     </div>
 </div>
+
     </main>
 
     <footer class="site-footer">
         <div class="container">
-            <p>&copy; 2025 Updates. Built with Jekyll.</p>
+            <p>&copy; 2025 PD Software Updates. Oak Ridge National Laboratory.</p>
         </div>
     </footer>
 </body>

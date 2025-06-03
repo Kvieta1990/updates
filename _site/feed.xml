@@ -1,30 +1,45 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-06-01T21:07:53-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Updates</title><subtitle>Important updates and milestones</subtitle><entry><title type="html">Major Feature Launch</title><link href="http://localhost:4000/2025/06/01/test/" rel="alternate" type="text/html" title="Major Feature Launch" /><published>2025-06-01T00:00:00-04:00</published><updated>2025-06-01T00:00:00-04:00</updated><id>http://localhost:4000/2025/06/01/test</id><content type="html" xml:base="http://localhost:4000/2025/06/01/test/"><![CDATA[<p>We successfully launched our most requested feature! This update includes:</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-06-02T23:17:57-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">PD Software Updates</title><subtitle>Release notes and announcements on ORNL powder diffraction software and services</subtitle><entry><title type="html">Useful Total Scattering Data Processing Utilities</title><link href="http://localhost:4000/2025/06/02/pd_utils_updates/" rel="alternate" type="text/html" title="Useful Total Scattering Data Processing Utilities" /><published>2025-06-02T00:00:00-04:00</published><updated>2025-06-02T00:00:00-04:00</updated><id>http://localhost:4000/2025/06/02/pd_utils_updates</id><content type="html" xml:base="http://localhost:4000/2025/06/02/pd_utils_updates/"><![CDATA[<p>We are announcing several useful implementations regarding the neutron powder total scattering data reduction and processing.</p>
+
+<h2 id="main-features">Main Features</h2>
 
 <ul>
-  <li>Enhanced user interface</li>
-  <li>Improved performance by 40%</li>
-  <li>New dashboard analytics</li>
-  <li>Mobile app optimization</li>
-</ul>
+  <li>User definition of sample and container geometry for absorption correction enabled in the Mantid framework</li>
+  <li>A chunk-by-chunk Fourier filter routine <code class="language-plaintext highlighter-rouge">pystog_ck</code> made available to general users on Analysis cluster. Detailed instructions can be found <a href="https://powder.ornl.gov/data_tools/general.html">here</a>.</li>
+  <li>A hydrogen background removal routine is available on Analysis through <code class="language-plaintext highlighter-rouge">mts_data</code>. Detailed instructions can be found <a href="https://powder.ornl.gov/data_tools/general.html#mts_data">here</a>.</li>
+</ul>]]></content><author><name></name></author><category term="data reduction" /><category term="advanced" /><summary type="html"><![CDATA[We are announcing several useful implementations regarding the neutron powder total scattering data reduction and processing.]]></summary></entry><entry><title type="html">An Experiment Monitor on the Phone</title><link href="http://localhost:4000/2025/04/24/monitor_on_mobile/" rel="alternate" type="text/html" title="An Experiment Monitor on the Phone" /><published>2025-04-24T00:00:00-04:00</published><updated>2025-04-24T00:00:00-04:00</updated><id>http://localhost:4000/2025/04/24/monitor_on_mobile</id><content type="html" xml:base="http://localhost:4000/2025/04/24/monitor_on_mobile/"><![CDATA[<p>Excited to announce the release of an experiment monitor tool on the phone. See details <a href="https://powder.ornl.gov/collections/mobile_apps.html">here</a>.</p>
 
-<p>The launch exceeded our expectations with over 1,000 users adopting the new feature within the first 24 hours.</p>]]></content><author><name></name></author><category term="feature" /><category term="launch" /><category term="milestone" /><summary type="html"><![CDATA[We successfully launched our most requested feature! This update includes:]]></summary></entry><entry><title type="html">Beta Version Released</title><link href="http://localhost:4000/2025/05/30/another/" rel="alternate" type="text/html" title="Beta Version Released" /><published>2025-05-30T00:00:00-04:00</published><updated>2025-05-30T00:00:00-04:00</updated><id>http://localhost:4000/2025/05/30/another</id><content type="html" xml:base="http://localhost:4000/2025/05/30/another/"><![CDATA[<p>Our beta version is now available for early testers. Key highlights:</p>
-
-<ul>
-  <li><strong>50+ beta testers</strong> signed up</li>
-  <li>Core functionality testing completed</li>
-  <li>Bug fixes and performance improvements</li>
-  <li>Feedback collection system implemented</li>
-</ul>
-
-<p>We received valuable feedback that helped shape the final release.</p>]]></content><author><name></name></author><category term="beta" /><category term="testing" /><category term="release" /><summary type="html"><![CDATA[Our beta version is now available for early testers. Key highlights:]]></summary></entry><entry><title type="html">Project Announcement</title><link href="http://localhost:4000/2025/05/15/initial/" rel="alternate" type="text/html" title="Project Announcement" /><published>2025-05-15T00:00:00-04:00</published><updated>2025-05-15T00:00:00-04:00</updated><id>http://localhost:4000/2025/05/15/initial</id><content type="html" xml:base="http://localhost:4000/2025/05/15/initial/"><![CDATA[<p>Excited to announce the start of our new project!</p>
-
-<h2 id="whats-coming">What’s Coming</h2>
+<h2 id="main-features">Main Features</h2>
 
 <ul>
-  <li>Modern, responsive design</li>
-  <li>Advanced analytics dashboard</li>
-  <li>Real-time collaboration tools</li>
-  <li>Mobile-first approach</li>
+  <li>A mobile instrument status monitor</li>
+  <li>Get notifications by setting alarm</li>
+  <li>Availalbe on both ios and Android phones</li>
+</ul>]]></content><author><name></name></author><category term="feature" /><category term="mobile" /><category term="monitor" /><summary type="html"><![CDATA[Excited to announce the release of an experiment monitor tool on the phone. See details here.]]></summary></entry><entry><title type="html">A Web-based Quick Data Plotter</title><link href="http://localhost:4000/2025/02/25/data_plotter/" rel="alternate" type="text/html" title="A Web-based Quick Data Plotter" /><published>2025-02-25T00:00:00-05:00</published><updated>2025-02-25T00:00:00-05:00</updated><id>http://localhost:4000/2025/02/25/data_plotter</id><content type="html" xml:base="http://localhost:4000/2025/02/25/data_plotter/"><![CDATA[<p>Excited to announce the release of a data plotter in ADDIE, <a href="https://addie.ornl.gov/plotter">addie.ornl.gov/plotter</a>.</p>
+
+<h2 id="main-features">Main Features</h2>
+
+<ul>
+  <li>A data plotter accessible from anywhere on the web</li>
+  <li>Handling <code class="language-plaintext highlighter-rouge">several tens</code> of data files</li>
+  <li>Support up to <code class="language-plaintext highlighter-rouge">10 different folders</code> selection of files</li>
+  <li>Quick comparison between two data sets</li>
+  <li>Robust handling of headers</li>
+  <li>Minimal user inputs</li>
+</ul>]]></content><author><name></name></author><category term="feature" /><category term="addie" /><category term="general" /><summary type="html"><![CDATA[Excited to announce the release of a data plotter in ADDIE, addie.ornl.gov/plotter.]]></summary></entry><entry><title type="html">Powder Diffraction Software Roadmap</title><link href="http://localhost:4000/2025/02/18/pd_software_roadmap/" rel="alternate" type="text/html" title="Powder Diffraction Software Roadmap" /><published>2025-02-18T00:00:00-05:00</published><updated>2025-02-18T00:00:00-05:00</updated><id>http://localhost:4000/2025/02/18/pd_software_roadmap</id><content type="html" xml:base="http://localhost:4000/2025/02/18/pd_software_roadmap/"><![CDATA[<p>The roadmap for powder diffraction software development at ORNL has been developed and made available <a href="https://powder.ornl.gov/work_items/roadmap.html">here</a>. These include,</p>
+
+<ul>
+  <li>Recent features available</li>
+  <li>Work in progress</li>
+  <li>Items planned to be worked on soon</li>
+  <li>Items in the backlog</li>
+</ul>]]></content><author><name></name></author><category term="doc" /><category term="plan" /><summary type="html"><![CDATA[The roadmap for powder diffraction software development at ORNL has been developed and made available here. These include,]]></summary></entry><entry><title type="html">HFIR Estimator Tool Available</title><link href="http://localhost:4000/2025/02/12/hfirestimate/" rel="alternate" type="text/html" title="HFIR Estimator Tool Available" /><published>2025-02-12T00:00:00-05:00</published><updated>2025-02-12T00:00:00-05:00</updated><id>http://localhost:4000/2025/02/12/hfirestimate</id><content type="html" xml:base="http://localhost:4000/2025/02/12/hfirestimate/"><![CDATA[<p>Excited to announce the release of the HFIR estimator tool in ADDIE, <a href="https://addie.ornl.gov/hfirestimate">addie.ornl.gov/hfirestimate</a></p>
+
+<h2 id="main-feature">Main Feature</h2>
+
+<ul>
+  <li>Simple input</li>
+  <li>Powder diffraction simulator with instrument effect</li>
+  <li>Estimation of the uncertainty level</li>
 </ul>
 
-<p>Stay tuned for regular updates as we progress through development milestones.</p>]]></content><author><name></name></author><category term="announcement" /><category term="kickoff" /><summary type="html"><![CDATA[Excited to announce the start of our new project!]]></summary></entry></feed>
+<p>Stay tuned for the paper regarding the tool.</p>]]></content><author><name></name></author><category term="feature" /><category term="experiment planning" /><category term="addie" /><summary type="html"><![CDATA[Excited to announce the release of the HFIR estimator tool in ADDIE, addie.ornl.gov/hfirestimate]]></summary></entry></feed>
