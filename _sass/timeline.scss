@@ -220,11 +220,61 @@ body {
     background: $text-color;
     color: white;
     text-align: center;
-    padding: 40px 0;
+    padding: 20px 0;
     margin-top: 80px;
 
-    p {
-        opacity: 0.8;
+    .wrapper {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 20px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .footer-logo {
+        flex-shrink: 0;
+        
+        .footer-logo-img {
+            max-height: 60px;
+            width: auto;
+            opacity: 1.0;
+            transition: opacity 0.3s ease;
+            
+            &:hover {
+                opacity: 1;
+            }
+        }
+    }
+    
+    .footer-content {
+        flex: 1;
+        text-align: center;
+        
+        p {
+            opacity: 1.0;
+            margin: 0;
+        }
+    }
+}
+
+// Responsive footer for mobile
+@media (max-width: 768px) {
+    .site-footer .wrapper {
+        flex-direction: column;
+        gap: 20px;
+        
+        .footer-logo {
+            order: 2;
+        }
+        
+        .footer-content {
+            order: 1;
+        }
+        
+        .footer-logo:last-child {
+            order: 3;
+        }
     }
 }
 
