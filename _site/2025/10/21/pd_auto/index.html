@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Powder Diffraction Auto Reduction</title>
+    <meta name="description" content="Release notes and announcements on ORNL powder diffraction software and services">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/assets/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon/favicon-16x16.png">
+    <link rel="apple-touch-icon" href="/assets/favicon/apple-touch-icon.png">
+    
+    <link rel="stylesheet" href="/assets/css/main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="site-header">
+        <div class="container">
+            <h1 class="site-title">ORNL PD Software Updates</h1>
+            <p class="site-description">Release notes and announcements on ORNL powder diffraction software and services</p>
+        </div>
+    </header>
+
+    <main class="site-content">
+        <ul>
+  <li>
+    <p>POWGEN autoreduction now will write out the XML configuration file that can be loaded into the POWGEN reduction GUI in Mantid Workbench.</p>
+  </li>
+  <li>
+    <p>The autoreduction scripts for NOMAD (<code class="language-plaintext highlighter-rouge">all_nom</code>) and POWGEN (<code class="language-plaintext highlighter-rouge">all_pg3</code>) now takes an optional argument to specify the output directory.</p>
+  </li>
+  <li>
+    <p>The POWGEN autoreduction configuration backup files are not all organized into a dedicated subfolder under <code class="language-plaintext highlighter-rouge">&lt;IPTS&gt;/shared/autoreduce/auto_params_backup</code>, where <code class="language-plaintext highlighter-rouge">&lt;IPTS&gt;</code> refers to the path to the IPTS, e.g., <code class="language-plaintext highlighter-rouge">/SNS/PG3/IPTS-32378</code>.</p>
+  </li>
+</ul>
+
+    </main>
+
+    <footer class="site-footer">
+        <div class="wrapper">
+            <div class="footer-logo">
+                <img src="/assets/images/doe.png" alt="ORNL PD Software Updates Logo" class="footer-logo-img">
+            </div>
+            <div class="footer-content">
+                <p>&copy; 2025 ORNL PD Software Updates. Oak Ridge National Laboratory.</p>
+            </div>
+            <div class="footer-logo">
+                <img src="/assets/images/ornl.png" alt="ORNL PD Software Updates Logo" class="footer-logo-img">
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
