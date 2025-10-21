@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-10-21T10:48:23-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">ORNL PD Software Updates</title><subtitle>Release notes and announcements on ORNL powder diffraction software and services</subtitle><entry><title type="html">Powder Diffraction Auto Reduction</title><link href="http://localhost:4000/2025/10/21/pd_auto/" rel="alternate" type="text/html" title="Powder Diffraction Auto Reduction" /><published>2025-10-21T00:00:00-04:00</published><updated>2025-10-21T00:00:00-04:00</updated><id>http://localhost:4000/2025/10/21/pd_auto</id><content type="html" xml:base="http://localhost:4000/2025/10/21/pd_auto/"><![CDATA[<ul>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-10-21T11:06:32-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">ORNL PD Software Updates</title><subtitle>Release notes and announcements on ORNL powder diffraction software and services</subtitle><entry><title type="html">GSAS-II Updates</title><link href="http://localhost:4000/2025/10/21/gsasii/" rel="alternate" type="text/html" title="GSAS-II Updates" /><published>2025-10-21T00:00:00-04:00</published><updated>2025-10-21T00:00:00-04:00</updated><id>http://localhost:4000/2025/10/21/gsasii</id><content type="html" xml:base="http://localhost:4000/2025/10/21/gsasii/"><![CDATA[<ul>
+  <li>In GSAS-II, now once we have a searched k-vector, we can use it to talk to ISODISTORT and construct compatible sub-groups.</li>
+</ul>]]></content><author><name></name></author><category term="gsasii" /><category term="analysis" /><summary type="html"><![CDATA[In GSAS-II, now once we have a searched k-vector, we can use it to talk to ISODISTORT and construct compatible sub-groups.]]></summary></entry><entry><title type="html">Powder Diffraction Auto Reduction</title><link href="http://localhost:4000/2025/10/21/pd_auto/" rel="alternate" type="text/html" title="Powder Diffraction Auto Reduction" /><published>2025-10-21T00:00:00-04:00</published><updated>2025-10-21T00:00:00-04:00</updated><id>http://localhost:4000/2025/10/21/pd_auto</id><content type="html" xml:base="http://localhost:4000/2025/10/21/pd_auto/"><![CDATA[<ul>
   <li>
     <p>POWGEN autoreduction now will write out the XML configuration file that can be loaded into the POWGEN reduction GUI in Mantid Workbench.</p>
   </li>
@@ -67,14 +69,4 @@
   <li>Work in progress</li>
   <li>Items planned to be worked on soon</li>
   <li>Items in the backlog</li>
-</ul>]]></content><author><name></name></author><category term="doc" /><category term="plan" /><summary type="html"><![CDATA[The roadmap for powder diffraction software development at ORNL has been developed and made available here. These include,]]></summary></entry><entry><title type="html">HFIR Estimator Tool Available</title><link href="http://localhost:4000/2025/02/12/hfirestimate/" rel="alternate" type="text/html" title="HFIR Estimator Tool Available" /><published>2025-02-12T00:00:00-05:00</published><updated>2025-02-12T00:00:00-05:00</updated><id>http://localhost:4000/2025/02/12/hfirestimate</id><content type="html" xml:base="http://localhost:4000/2025/02/12/hfirestimate/"><![CDATA[<p>Excited to announce the release of the HFIR estimator tool in ADDIE, <a href="https://addie.ornl.gov/hfirestimate">addie.ornl.gov/hfirestimate</a></p>
-
-<h2 id="main-feature">Main Feature</h2>
-
-<ul>
-  <li>Simple input</li>
-  <li>Powder diffraction simulator with instrument effect</li>
-  <li>Estimation of the uncertainty level</li>
-</ul>
-
-<p>Stay tuned for the paper regarding the tool.</p>]]></content><author><name></name></author><category term="feature" /><category term="experiment planning" /><category term="addie" /><summary type="html"><![CDATA[Excited to announce the release of the HFIR estimator tool in ADDIE, addie.ornl.gov/hfirestimate]]></summary></entry></feed>
+</ul>]]></content><author><name></name></author><category term="doc" /><category term="plan" /><summary type="html"><![CDATA[The roadmap for powder diffraction software development at ORNL has been developed and made available here. These include,]]></summary></entry></feed>
