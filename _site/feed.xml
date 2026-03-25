@@ -1,4 +1,33 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-10-21T21:52:44-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">ORNL PD Software Updates</title><subtitle>Release notes and announcements on ORNL powder diffraction software and services</subtitle><entry><title type="html">GSAS-II Updates</title><link href="http://localhost:4000/2025/10/21/gsasii/" rel="alternate" type="text/html" title="GSAS-II Updates" /><published>2025-10-21T00:00:00-04:00</published><updated>2025-10-21T00:00:00-04:00</updated><id>http://localhost:4000/2025/10/21/gsasii</id><content type="html" xml:base="http://localhost:4000/2025/10/21/gsasii/"><![CDATA[<ul>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2026-03-25T12:47:45-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">ORNL PD Software Updates</title><subtitle>Release notes and announcements on ORNL powder diffraction software and services</subtitle><entry><title type="html">Powder Diffraction AI Agent</title><link href="http://localhost:4000/2026/03/25/pd_agent/" rel="alternate" type="text/html" title="Powder Diffraction AI Agent" /><published>2026-03-25T00:00:00-04:00</published><updated>2026-03-25T00:00:00-04:00</updated><id>http://localhost:4000/2026/03/25/pd_agent</id><content type="html" xml:base="http://localhost:4000/2026/03/25/pd_agent/"><![CDATA[<ul>
+  <li>
+    <p>The powder diffraction AI agent is under active development. Available features are,</p>
+
+    <ul>
+      <li>
+        <p>Agent stays in ORNL slack workspace and SNS or HFIR users can get access to the agent. Get in touch with <a href="mailto:zhangy3@ornl.gov">Yuanpeng Zhang</a> if you want to try out.</p>
+      </li>
+      <li>
+        <p>Retrieve ORNL and neutron information – ORNL and neutron specific web pages are all indexed and the answer will be very specific to the ORNL and neutron scope.</p>
+      </li>
+      <li>
+        <p>NOMAD and POWGEN specific information retrieval.</p>
+      </li>
+      <li>
+        <p>POWGEN auto reduction configuration reader.</p>
+      </li>
+      <li>
+        <p>POWGEN temperature ramping calculator.</p>
+      </li>
+    </ul>
+  </li>
+</ul>]]></content><author><name></name></author><category term="Agent" /><summary type="html"><![CDATA[The powder diffraction AI agent is under active development. Available features are,]]></summary></entry><entry><title type="html">Powder Diffraction Data Processing</title><link href="http://localhost:4000/2026/03/25/pd_utils/" rel="alternate" type="text/html" title="Powder Diffraction Data Processing" /><published>2026-03-25T00:00:00-04:00</published><updated>2026-03-25T00:00:00-04:00</updated><id>http://localhost:4000/2026/03/25/pd_utils</id><content type="html" xml:base="http://localhost:4000/2026/03/25/pd_utils/"><![CDATA[<ul>
+  <li>
+    <p>The <code class="language-plaintext highlighter-rouge">pystog_cli</code> engine for total scattering data processing now supports the uncertainty calculation for pair distribution function (PDF). The utility is available on ORNL Analysis cluster and users can also set up the utility locally – see the GitHub repo <a href="https://github.com/neutrons/pystog">here</a>.</p>
+  </li>
+  <li>
+    <p>The uncertainty calculation for PDF is not supported in the autoreduction pipeline for both NOMAD and POWGEN.</p>
+  </li>
+</ul>]]></content><author><name></name></author><category term="nomad" /><category term="powgen" /><category term="autored" /><summary type="html"><![CDATA[The pystog_cli engine for total scattering data processing now supports the uncertainty calculation for pair distribution function (PDF). The utility is available on ORNL Analysis cluster and users can also set up the utility locally – see the GitHub repo here.]]></summary></entry><entry><title type="html">GSAS-II Updates</title><link href="http://localhost:4000/2025/10/21/gsasii/" rel="alternate" type="text/html" title="GSAS-II Updates" /><published>2025-10-21T00:00:00-04:00</published><updated>2025-10-21T00:00:00-04:00</updated><id>http://localhost:4000/2025/10/21/gsasii</id><content type="html" xml:base="http://localhost:4000/2025/10/21/gsasii/"><![CDATA[<ul>
   <li>In GSAS-II, now once we have a searched k-vector, we can use it to talk to ISODISTORT and construct compatible sub-groups.</li>
 </ul>]]></content><author><name></name></author><category term="gsasii" /><category term="analysis" /><summary type="html"><![CDATA[In GSAS-II, now once we have a searched k-vector, we can use it to talk to ISODISTORT and construct compatible sub-groups.]]></summary></entry><entry><title type="html">Powder Diffraction Auto Reduction</title><link href="http://localhost:4000/2025/10/21/pd_auto/" rel="alternate" type="text/html" title="Powder Diffraction Auto Reduction" /><published>2025-10-21T00:00:00-04:00</published><updated>2025-10-21T00:00:00-04:00</updated><id>http://localhost:4000/2025/10/21/pd_auto</id><content type="html" xml:base="http://localhost:4000/2025/10/21/pd_auto/"><![CDATA[<ul>
   <li>
@@ -54,22 +83,4 @@
   <li>A mobile instrument status monitor</li>
   <li>Get notifications by setting alarm</li>
   <li>Availalbe on both ios and Android phones</li>
-</ul>]]></content><author><name></name></author><category term="feature" /><category term="mobile" /><category term="monitor" /><summary type="html"><![CDATA[Excited to announce the release of an experiment monitor tool on the phone. See details here.]]></summary></entry><entry><title type="html">A Web-based Quick Data Plotter</title><link href="http://localhost:4000/2025/02/25/data_plotter/" rel="alternate" type="text/html" title="A Web-based Quick Data Plotter" /><published>2025-02-25T00:00:00-05:00</published><updated>2025-02-25T00:00:00-05:00</updated><id>http://localhost:4000/2025/02/25/data_plotter</id><content type="html" xml:base="http://localhost:4000/2025/02/25/data_plotter/"><![CDATA[<p>Excited to announce the release of a data plotter in ADDIE, <a href="https://addie.ornl.gov/plotter">addie.ornl.gov/plotter</a>.</p>
-
-<h2 id="main-features">Main Features</h2>
-
-<ul>
-  <li>A data plotter accessible from anywhere on the web</li>
-  <li>Handling <code class="language-plaintext highlighter-rouge">several tens</code> of data files</li>
-  <li>Support up to <code class="language-plaintext highlighter-rouge">10 different folders</code> selection of files</li>
-  <li>Quick comparison between two data sets</li>
-  <li>Robust handling of headers</li>
-  <li>Minimal user inputs</li>
-</ul>]]></content><author><name></name></author><category term="feature" /><category term="addie" /><category term="general" /><summary type="html"><![CDATA[Excited to announce the release of a data plotter in ADDIE, addie.ornl.gov/plotter.]]></summary></entry><entry><title type="html">Powder Diffraction Software Roadmap</title><link href="http://localhost:4000/2025/02/18/pd_software_roadmap/" rel="alternate" type="text/html" title="Powder Diffraction Software Roadmap" /><published>2025-02-18T00:00:00-05:00</published><updated>2025-02-18T00:00:00-05:00</updated><id>http://localhost:4000/2025/02/18/pd_software_roadmap</id><content type="html" xml:base="http://localhost:4000/2025/02/18/pd_software_roadmap/"><![CDATA[<p>The roadmap for powder diffraction software development at ORNL has been developed and made available <a href="https://powder.ornl.gov/work_items/roadmap.html">here</a>. These include,</p>
-
-<ul>
-  <li>Recent features available</li>
-  <li>Work in progress</li>
-  <li>Items planned to be worked on soon</li>
-  <li>Items in the backlog</li>
-</ul>]]></content><author><name></name></author><category term="doc" /><category term="plan" /><summary type="html"><![CDATA[The roadmap for powder diffraction software development at ORNL has been developed and made available here. These include,]]></summary></entry></feed>
+</ul>]]></content><author><name></name></author><category term="feature" /><category term="mobile" /><category term="monitor" /><summary type="html"><![CDATA[Excited to announce the release of an experiment monitor tool on the phone. See details here.]]></summary></entry></feed>
