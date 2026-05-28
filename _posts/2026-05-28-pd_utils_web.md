@@ -3,7 +3,7 @@ layout: default
 title: "Web-based Powder Tools"
 date: 2026-05-28
 status: "completed"
-tags: ["Agent"]
+tags: ["web"]
 ---
 
 - Routinely used powder diffraction tools are maded available in the NOVA web platform, see [here](https://ndip.ornl.gov/nova/powder-diffraction).
