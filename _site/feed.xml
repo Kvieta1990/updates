@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2026-03-25T12:47:45-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">ORNL PD Software Updates</title><subtitle>Release notes and announcements on ORNL powder diffraction software and services</subtitle><entry><title type="html">Powder Diffraction AI Agent</title><link href="http://localhost:4000/2026/03/25/pd_agent/" rel="alternate" type="text/html" title="Powder Diffraction AI Agent" /><published>2026-03-25T00:00:00-04:00</published><updated>2026-03-25T00:00:00-04:00</updated><id>http://localhost:4000/2026/03/25/pd_agent</id><content type="html" xml:base="http://localhost:4000/2026/03/25/pd_agent/"><![CDATA[<ul>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2026-05-28T16:42:39-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">ORNL PD Software Updates</title><subtitle>Release notes and announcements on ORNL powder diffraction software and services</subtitle><entry><title type="html">Powder Diffraction AI Agent</title><link href="http://localhost:4000/2026/03/25/pd_agent/" rel="alternate" type="text/html" title="Powder Diffraction AI Agent" /><published>2026-03-25T00:00:00-04:00</published><updated>2026-03-25T00:00:00-04:00</updated><id>http://localhost:4000/2026/03/25/pd_agent</id><content type="html" xml:base="http://localhost:4000/2026/03/25/pd_agent/"><![CDATA[<ul>
   <li>
     <p>The powder diffraction AI agent is under active development. Available features are,</p>
 
@@ -20,7 +20,17 @@
       </li>
     </ul>
   </li>
-</ul>]]></content><author><name></name></author><category term="Agent" /><summary type="html"><![CDATA[The powder diffraction AI agent is under active development. Available features are,]]></summary></entry><entry><title type="html">Powder Diffraction Data Processing</title><link href="http://localhost:4000/2026/03/25/pd_utils/" rel="alternate" type="text/html" title="Powder Diffraction Data Processing" /><published>2026-03-25T00:00:00-04:00</published><updated>2026-03-25T00:00:00-04:00</updated><id>http://localhost:4000/2026/03/25/pd_utils</id><content type="html" xml:base="http://localhost:4000/2026/03/25/pd_utils/"><![CDATA[<ul>
+</ul>]]></content><author><name></name></author><category term="Agent" /><summary type="html"><![CDATA[The powder diffraction AI agent is under active development. Available features are,]]></summary></entry><entry><title type="html">Web-based Powder Tools</title><link href="http://localhost:4000/2026/03/25/pd_utils/" rel="alternate" type="text/html" title="Web-based Powder Tools" /><published>2026-03-25T00:00:00-04:00</published><updated>2026-03-25T00:00:00-04:00</updated><id>http://localhost:4000/2026/03/25/pd_utils</id><content type="html" xml:base="http://localhost:4000/2026/03/25/pd_utils/"><![CDATA[<ul>
+  <li>
+    <p>Routinely used powder diffraction tools are maded available in the NOVA web platform, see <a href="https://ndip.ornl.gov/nova/powder-diffraction">here</a>.</p>
+  </li>
+  <li>
+    <p>Accurate temperature ramping time estimator for POWGEN made available online, see <a href="https://addie.ornl.gov/pg3_temp_ramp">here</a></p>
+  </li>
+  <li>
+    <p>Sample and characterization runs information automatically populated into a dedicated database to make auto reduction running smoother and require minimal amount of manual input.</p>
+  </li>
+</ul>]]></content><author><name></name></author><category term="Agent" /><summary type="html"><![CDATA[Routinely used powder diffraction tools are maded available in the NOVA web platform, see here.]]></summary></entry><entry><title type="html">Powder Diffraction Data Processing</title><link href="http://localhost:4000/2026/03/25/pd_utils/" rel="alternate" type="text/html" title="Powder Diffraction Data Processing" /><published>2026-03-25T00:00:00-04:00</published><updated>2026-03-25T00:00:00-04:00</updated><id>http://localhost:4000/2026/03/25/pd_utils</id><content type="html" xml:base="http://localhost:4000/2026/03/25/pd_utils/"><![CDATA[<ul>
   <li>
     <p>The <code class="language-plaintext highlighter-rouge">pystog_cli</code> engine for total scattering data processing now supports the uncertainty calculation for pair distribution function (PDF). The utility is available on ORNL Analysis cluster and users can also set up the utility locally – see the GitHub repo <a href="https://github.com/neutrons/pystog">here</a>.</p>
   </li>
@@ -75,12 +85,4 @@
   <li>User definition of sample and container geometry for absorption correction enabled in the Mantid framework</li>
   <li>A chunk-by-chunk Fourier filter routine <code class="language-plaintext highlighter-rouge">pystog_ck</code> made available to general users on Analysis cluster. Detailed instructions can be found <a href="https://powder.ornl.gov/data_tools/general.html">here</a>.</li>
   <li>A hydrogen background removal routine is available on Analysis through <code class="language-plaintext highlighter-rouge">mts_data</code>. Detailed instructions can be found <a href="https://powder.ornl.gov/data_tools/general.html#mts_data">here</a>.</li>
-</ul>]]></content><author><name></name></author><category term="data reduction" /><category term="advanced" /><summary type="html"><![CDATA[We are announcing several useful implementations regarding the neutron powder total scattering data reduction and processing.]]></summary></entry><entry><title type="html">An Experiment Monitor on the Phone</title><link href="http://localhost:4000/2025/04/24/monitor_on_mobile/" rel="alternate" type="text/html" title="An Experiment Monitor on the Phone" /><published>2025-04-24T00:00:00-04:00</published><updated>2025-04-24T00:00:00-04:00</updated><id>http://localhost:4000/2025/04/24/monitor_on_mobile</id><content type="html" xml:base="http://localhost:4000/2025/04/24/monitor_on_mobile/"><![CDATA[<p>Excited to announce the release of an experiment monitor tool on the phone. See details <a href="https://powder.ornl.gov/collections/mobile_apps.html">here</a>.</p>
-
-<h2 id="main-features">Main Features</h2>
-
-<ul>
-  <li>A mobile instrument status monitor</li>
-  <li>Get notifications by setting alarm</li>
-  <li>Availalbe on both ios and Android phones</li>
-</ul>]]></content><author><name></name></author><category term="feature" /><category term="mobile" /><category term="monitor" /><summary type="html"><![CDATA[Excited to announce the release of an experiment monitor tool on the phone. See details here.]]></summary></entry></feed>
+</ul>]]></content><author><name></name></author><category term="data reduction" /><category term="advanced" /><summary type="html"><![CDATA[We are announcing several useful implementations regarding the neutron powder total scattering data reduction and processing.]]></summary></entry></feed>
